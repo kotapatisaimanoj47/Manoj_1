@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saimanojkotapati.manoj.Register">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4.5"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME"
+        android:textSize="25dp"
+        android:gravity="top"
+        android:layout_weight=".25"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"
+        android:textSize="25dp"
+        android:layout_weight=".25"
+        />
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DD/MM/YYYY"
+        android:textSize="25dp"
+        android:layout_weight=".25"
+        />
+     <EditText
+         android:id="@+id/addr"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Address"
+         android:textSize="25dp"
+         android:layout_weight=".25"
+         />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="Phone"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/lol"
+         android:layout_marginTop="50dp"
+         android:layout_width="150dp"
+         android:layout_height="45dp"
+         android:layout_weight=".5"
+         android:layout_gravity="center"
+         android:text="Done"
+         android:textSize="30dp"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
